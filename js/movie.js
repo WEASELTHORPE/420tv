@@ -31,7 +31,7 @@ async function fetchTVDetails(id) {
 
 <iframe 
   src="https://www.vidking.net/embed/tv/${show.id}/1/1?color=e50914&autoPlay=true&nextEpisode=true&episodeSelector=true" 
-  width="100%" 
+  width="150%" 
   height="600" 
   frameborder="0" 
   allowfullscreen>
