@@ -37,7 +37,28 @@ async function fetchTVDetails(id) {
   allowfullscreen>
 
 </iframe>
+
+<iframe 
+  src="https://vidsrc-embed.su/embed/tv?tmdb=${id}" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen>
+        </iframe>
+
+
 </div>
+
+
+<iframe 
+  src="https://vidsrc.cc/v2/embed/tv/${id}" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen>
+        </iframe>
+      </div>
+
 
 
 
