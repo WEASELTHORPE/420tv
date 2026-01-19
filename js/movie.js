@@ -60,6 +60,23 @@ async function fetchTVDetails(id) {
       </div>
 
 
+    <iframe 
+  src="https://vidsrc.icu/embed/tv/${id}" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen>
+        </iframe>
+      </div>
+
+       <iframe 
+  src="https://vidsrc.to/embed/tv/${id}" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen>
+        </iframe>
+      </div>
 
 
 `;}
