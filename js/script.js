@@ -42,7 +42,7 @@ function renderMovies(movies) {
     card.className = 'bg-gray-100 dark:bg-gray-800 p-2 rounded cursor-pointer hover:scale-105 transition';
 
     card.innerHTML = `
-      <img class="w-full h-64 object-cover rounded"
+      <img class="w-full h-65 object-cover rounded"
            src="${IMAGE_BASE + show.poster_path}"
            alt="${show.name}" />
       <h3 class="mt-2 text-center text-lg font-semibold">
