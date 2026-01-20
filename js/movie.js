@@ -29,6 +29,9 @@ async function fetchTVDetails(id) {
     
       
 <div class="mt-8 w-full aspect-video">
+
+
+
 <iframe 
   src="https://www.vidking.net/embed/tv/${show.id}/1/1?color=e50914&autoPlay=true&nextEpisode=true&episodeSelector=true" 
   width="100%" 
@@ -71,6 +74,15 @@ async function fetchTVDetails(id) {
 
        <iframe 
   src="https://vidsrc.to/embed/tv/${id}" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen>
+        </iframe>
+      </div>
+
+      <iframe 
+  src="https://player.autoembed.cc/embed/tv/${id}" 
   width="100%" 
   height="600" 
   frameborder="0" 
