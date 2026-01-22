@@ -81,6 +81,7 @@ async function fetchTVDetails(id) {
         </iframe>
       </div>
 
+      <!--
       <iframe 
   src="https://player.autoembed.cc/embed/tv/${id}" 
   width="100%" 
@@ -89,6 +90,7 @@ async function fetchTVDetails(id) {
   allowfullscreen>
         </iframe>
       </div>
+      -->
 
 
 `;}
