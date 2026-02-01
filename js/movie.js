@@ -41,6 +41,8 @@ async function fetchTVDetails(id) {
 
 </iframe>
 
+<br><br>
+
 <iframe 
   src="https://vidsrc-embed.su/embed/tv?tmdb=${id}" 
   width="100%" 
@@ -52,6 +54,7 @@ async function fetchTVDetails(id) {
 
 </div>
 
+<br><br>
 
 <iframe 
   src="https://vidsrc.cc/v2/embed/tv/${id}" 
@@ -62,6 +65,7 @@ async function fetchTVDetails(id) {
         </iframe>
       </div>
 
+<br><br>
 
     <iframe 
   src="https://vidsrc.icu/embed/tv/${id}" 
@@ -71,6 +75,8 @@ async function fetchTVDetails(id) {
   allowfullscreen>
         </iframe>
       </div>
+
+<br><br>
 
        <iframe 
   src="https://vidsrc.to/embed/tv/${id}" 
