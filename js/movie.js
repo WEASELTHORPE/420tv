@@ -78,6 +78,28 @@ async function fetchTVDetails(id) {
 
 <br><br>
 
+
+       <iframe 
+  src="https://vidlink.pro/tv/${id}" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen>
+        </iframe>
+      </div>
+
+
+       <iframe 
+  src="https://vidsrc.sh/embed/tv/${id}" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen>
+        </iframe>
+      </div>
+
+
+
        <iframe 
   src="https://vidsrc.to/embed/tv/${id}" 
   width="100%" 
